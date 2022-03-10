@@ -1,0 +1,95 @@
+.row-header{
+  margin:0px auto;
+  padding:0px auto;
+}
+
+.row-content {
+  margin:0px auto;
+  padding: 50px 0px 50px 0px;
+  border-bottom: 1px ridge;
+  min-height:400px;
+}
+
+.footer{
+  background-color: #D1C4E9;
+  margin:0px auto;
+  padding: 20px 0px 20px 0px;
+}
+
+.jumbotron{
+  padding: 120px 30px 70px 30px !important;
+  margin: 0px auto !important;
+  background-color: #9575CD !important;
+  color: floralwhite;
+}
+
+.image{
+  max-height: 500px;
+}
+
+.media-image{
+  max-height: 150px;
+}
+
+.travel-card{
+  text-decoration: none;
+}
+
+.family-media{
+  margin-top: 10px;
+}
+
+.arrow{
+  color: #0f0f0f;
+}
+
+.arrow-button{
+  outline: none;
+}
+
+.header-image{
+  max-height: 400px;
+}
+
+.carousel{
+  background-color: #512DA8;
+}
+
+.carousel-section{
+  height: 300px;
+}
+
+.social-icon{
+  margin-right: 4px;
+}
+
+address{
+  margin:0px;
+  color:#0f0f0f;
+}
+
+.navbar-dark {
+  background-color: #512DA8;
+}
+
+.page-enter{
+  opacity: 0.01;
+  transform: translateX(-100%);
+}
+
+.page-enter-active{
+  opacity: 1;
+  transform: translateX(0%);
+  transition: all 300ms ease-in;
+}
+
+.page-exit{
+  opacity: 1;
+  transform: translateX(0%);
+}
+
+.page-exit-active{
+  opacity: 0.01;
+  transform: translateX(100%);
+  transition: all 300ms ease-out;
+}
