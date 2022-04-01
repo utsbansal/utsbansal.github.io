@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Carousel, CarouselItem, CarouselControl, CarouselIndicators } from 'reactstrap';
-import Family from './FamilyComponent';
 import Header from './HeaderComponent';
+import Courses from './CourseComponent';
 
 function Home(props){
 
@@ -59,7 +59,8 @@ function Home(props){
                         </Carousel>
                     </div>
                 </div>
-                <Family familyData={props.familyData}/>
+                <Courses courseData={props.courseData}/>
+
                 
                 
             </div>
