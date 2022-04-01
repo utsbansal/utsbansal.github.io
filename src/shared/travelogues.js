@@ -6,7 +6,7 @@ export const travelogues = [
         description: "Getting to see one of the largest waterfalls in the world.",
         image1: "/assets/images/niagara.jpg",
         image2: "/assets/images/niagara1.jpg",
-        image3: "/assets/images/niagara2.jpg",
+        image3: "/assets/images/niagara2.JPG",
         heading: "Niagara Falls & Niagara River",
         para1: "Living in Buffalo, NY, the biggest attraction for one would be the Niagara Falls. Everything about the Niagara Falls is amazing. It is beautiful, it is located right in the middle of two countries and it has locations for trekking & picnicing. When one visits the Niagara Falls, the expectations are pretty high. You expect the falls to be huge. And honestly, they are even bigger than you could think of. My uncle, aunt and their children made the experience so much more enjoyable. We trekked to the whirlpool park and back. The nature around you is a treat to your eyes. Also makes you realize the power that it possesses.",
         para2: "There are multiple activities that you can do at the falls. One of them is called \"Maid of the Mist\". In this, you get to go very close to the falls in a ferry. They give you a raincoat to wear because, no surprises, you get wet. The falls look even more mesmerizing from down there. Also, this actvity is offered from Canada's side as well. While passing by the Canadian ferry, a lot of hand waving occurs because people from either side are excited to see each other. Definitely one of the activities that you must do when you visit. It is definitely a place where I would be visiting quite frequently just because how amazing it is."
