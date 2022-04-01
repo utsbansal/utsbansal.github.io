@@ -24,10 +24,10 @@ class MyForm extends Component {
                 <Input type="email" id="email" name="email" innerRef={(input) => this.email = input}/>
             </FormGroup>
             <FormGroup>
-                <Label htmlFor="email">Feedback</Label>
+                <Label htmlFor="email">Message</Label>
                 <Input type="textarea" rows="6" id="feedback" name="feedback" innerRef={(input) => this.feedback = input}/>
             </FormGroup>
-            <Button type="submit" value="submit" color="primary">Submit</Button>
+            <Button type="submit" value="submit" color="primary">Send</Button>
         </Form>
         );
     }
@@ -53,9 +53,9 @@ class MyForm extends Component {
       if (xhr.readyState !== XMLHttpRequest.DONE) return;
       if (xhr.status === 200) {
         form.reset();
-        this.setState({ status: "Thank You for your feedback!" });
+        this.setState({ status: "Thank You for your message!" });
       } else {
-        this.setState({ status: "ERROR. Could not submit feedback." });
+        this.setState({ status: "ERROR. Could not send message." });
       }
     };
     xhr.send(data);

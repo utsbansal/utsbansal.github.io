@@ -1,6 +1,18 @@
 export const travelogues = [
     {
         id: 0,
+        place: "Niagara Falls & Niagara River",
+        link: "niagara",
+        description: "Getting to see one of the largest waterfalls in the world.",
+        image1: "/assets/images/niagara.jpg",
+        image2: "/assets/images/niagara1.jpg",
+        image3: "/assets/images/niagara2.jpg",
+        heading: "Niagara Falls & Niagara River",
+        para1: "Living in Buffalo, NY, the biggest attraction for one would be the Niagara Falls. Everything about the Niagara Falls is amazing. It is beautiful, it is located right in the middle of two countries and it has locations for trekking & picnicing. When one visits the Niagara Falls, the expectations are pretty high. You expect the falls to be huge. And honestly, they are even bigger than you could think of. My uncle, aunt and their children made the experience so much more enjoyable. We trekked to the whirlpool park and back. The nature around you is a treat to your eyes. Also makes you realize the power that it possesses.",
+        para2: "There are multiple activities that you can do at the falls. One of them is called \"Maid of the Mist\". In this, you get to go very close to the falls in a ferry. They give you a raincoat to wear because, no surprises, you get wet. The falls look even more mesmerizing from down there. Also, this actvity is offered from Canada's side as well. While passing by the Canadian ferry, a lot of hand waving occurs because people from either side are excited to see each other. Definitely one of the activities that you must do when you visit. It is definitely a place where I would be visiting quite frequently just because how amazing it is."
+    },
+    {
+        id: 1,
         place: "Kheerganga, Kasol & Manikaran",
         link: "kheerganga",
         description: "Probably the final trip with my batchmates at engineering college.",
@@ -12,7 +24,7 @@ export const travelogues = [
         para2: "The next day we trekked down and took a different route, through Tosh village. The moment we reached the bottom, we had this sense of satisfaction that is hard to describe. Overall the experience was unforgettable, thanks to everyone around. From there, we headed straight to Manikaran again, had lunch and went to Kasol for the final night. Kasol was the only place where we stayed in a comfortable hotel on the entire trip. After resting for a while, we decided to head to the market and explore. While returning, we had dinner at a dhaba. The night at the hotel was spent dancing and enjoying together. We all new that this could very well be our final outing together as a group. The next morning we started the arduous(because it was soooo looooooong) journey of heading back to Ambala. As we sat in the taxi waiting to reach Ambala, we all relished our time together and thanked each other to come along. Looking forward to more such trekking experiences..."
     },
     {
-        id: 1,
+        id: 2,
         place: "Qatar",
         link: "qatar",
         description: "Read about the time when I went to Qatar and made lots of new friends.",
@@ -24,7 +36,7 @@ export const travelogues = [
         para2: "I am so thankful to the Qatar Youth Hostels for this opportunity. Also I feel very lucky to have met Aman, Badonbok, Sameep, Nishad, Sindura, Ankita, Amrutha, Radhika and Anu. The five days that all of us had spent together can never be forgotten. It was so cool to witness something for the first time together. Hopefully more of such programs take place and these expeditions never end."
     },
     {
-        id: 2,
+        id: 3,
         place: "Jodhpur & Jaisalmer",
         link: "jodhpur",
         description: "A very memorable visit to the historical sights of Rajasthan with my cousins.",
@@ -36,7 +48,7 @@ export const travelogues = [
         para2: "The camp where we stayed at in Jaisalmer also had a traditional program every night where they perform typical Rajasthani singing and dancing. It was definitely a great time to just sit and watch the live performance. As we were travelling in the desert one day, we also got a chance to do paragliding. To be up so high and the only thing you can see around you is desert, is a surreal experience. Again, the credits for this trip go to my maternal grandfather and my aunt. It is their dedication that we were able to experience all of this together."
     },
     {
-        id: 3,
+        id: 4,
         place: "Andaman & Nicobar Islands",
         link: "andaman",
         description: "Me & My family went to the South East corner of India to find no mobile reception.",
@@ -48,7 +60,7 @@ export const travelogues = [
         para2: "The first thing we instantly realised when we reached there was that... \"THERE WAS NO MOBILE RECEPTION!!\". Ok, no is a little exaggeration but it was really bad. The only signal that any mobile was able to catch was BSNL 2G. That too in limited places. We knew that this was going to be the real holiday, absolutely no connection with the outside world. We visited three Islands:-<ul><li>Port Blair</li><li>Havelock Island</li><li>Neil Island</li></ul>Port Blair was the only place where we got Wifi in the hotel that too was slower than 2G. My father who receives atleast 100 calls a day had no call to answer. We travelled from island to island in a cruise. The only reason we were able to enjoy all this is because of my Nanaji and Naniji. The whole credit for this trip goes to them."
     },
     {
-        id: 4,
+        id: 5,
         place: "Dharamshala & Mcleodganj",
         link: "dharamshala",
         description: "The holy land of His Highness Dalai Lama was explored with some insanely amazing people.",

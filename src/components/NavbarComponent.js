@@ -97,7 +97,7 @@ class Navigation extends Component{
                         <Nav className="ml-auto" navbar>
                             <NavItem>
                                 <Button outline onClick={this.toggleModal}>
-                                    <span className="fa fa-comments-o fa-lg"></span> Submit Feedback
+                                    <span className="fa fa-comments-o fa-lg"></span> Contact Me!
                                 </Button>
                             </NavItem>
                         </Nav>
@@ -106,7 +106,7 @@ class Navigation extends Component{
             </Navbar>
             <Modal isOpen={this.state.isModalOpen} toggle={this.toggleModal}>
                 <ModalHeader isOpen={this.state.isModalOpen} toggle={this.toggleModal}>
-                    Submit Feedback
+                    Contact Me!
                 </ModalHeader>
                 <ModalBody>
                     <MyForm/>
