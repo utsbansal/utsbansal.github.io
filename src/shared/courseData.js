@@ -6,5 +6,6 @@ export const courseData = [
     "Robotics Algorithms",
     "Machine Learning",
     "Distributed Systems",
-    "Computer Vision and Image Processing"
+    "Computer Vision and Image Processing",
+    "Graph Mining and Management"
 ]

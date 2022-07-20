@@ -8,7 +8,7 @@ function Header(props){
                 <div className="container">
                     <div className="row">
                         <div className="col-12 col-sm-4 text-center">
-                            <img src="assets/images/uts.jpg" alt="Utkarsh Bansal" height="250" width="250" className="rounded-circle img-thumbnail"/>
+                            <img src="assets/images/uts.jpeg" alt="Utkarsh Bansal" height="250" width="250" className="rounded-circle img-thumbnail"/>
                         </div>
                         <div className="col-12 col-sm-7 align-self-center text-sm-left text-center">
                             <h2>Utkarsh Bansal</h2>
