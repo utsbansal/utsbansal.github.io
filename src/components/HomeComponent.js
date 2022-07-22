@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Carousel, CarouselItem, CarouselControl, CarouselIndicators } from 'reactstrap';
 import Header from './HeaderComponent';
 import Courses from './CourseComponent';
+// import Projects from './ProjectComponent';
 
 function Home(props){
 
@@ -60,7 +61,7 @@ function Home(props){
                     </div>
                 </div>
                 <Courses courseData={props.courseData}/>
-
+                {/* <Projects projectData={props.projectData}/> */}
                 
                 
             </div>

@@ -83,6 +83,11 @@ class Navigation extends Component{
                                     <span className="fa fa-info fa-lg"></span> About
                                 </NavLink>
                             </NavItem>
+                            <NavItem onClick={this.handleNavclick}>
+                                <NavLink className="nav-link" to="/projects">
+                                    <span className="fa fa-wrench fa-lg"></span> Projects
+                                </NavLink>
+                            </NavItem>
                             <Dropdown nav isOpen={this.state.isDropdownOpen} toggle={this.toggleDropdown}>
                                 <DropdownToggle nav caret><span className="fa fa-suitcase fa-lg"></span> Travelogues</DropdownToggle>
                                 <DropdownMenu>

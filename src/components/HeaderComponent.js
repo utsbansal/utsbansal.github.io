@@ -2,7 +2,7 @@ import React from 'react';
 import { Jumbotron } from 'reactstrap';
 
 function Header(props){
-    if(props.mainPage || props.aboutPage){
+    if(props.mainPage || props.aboutPage || props.projectPage){
         return(
             <Jumbotron className="mb-0">
                 <div className="container">
