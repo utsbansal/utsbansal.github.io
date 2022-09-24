@@ -1,6 +1,18 @@
 export const travelogues = [
     {
         id: 0,
+        place: "Smoky Mountain National Park, Tennessee",
+        link: "tennessee",
+        description: "Road trip across the U.S. is the best way to explore!",
+        image1: "/assets/images/tennessee.jpeg",
+        image2: "/assets/images/tennessee1.jpg",
+        image3: "/assets/images/tennessee2.jpeg",
+        heading: "Smoky Mountain National Park, Tennessee",
+        para1: "I was always told that the best way to explore U.S. is to do a road trip and visit some of its national parks. And now that I have gone on one, I can definitely tell its true. I got a wonderful opportunity to drive from Buffalo, New York to Gatlinburg, Tennessee and back. It is about 700 miles or 1100 kilometres one way, which can be translated to approximately 12 hour drive. The best part about road tripping is that you get to break your journey into parts and explore the cities that you pass through as well. On our way there we saw the city of Pittsburgh (Pennsylvania), Beckley (West Virginia) and Asheville (North Carolina), before finally reaching Gatlinburg. Pittsburgh is a big and popular city out of the lot. It is a beautiful city as well with the right blend of man-made and natural beauty all around. Beckeley is popular for its coal mining operations which we got to see while visiting a coal mine there. Asheville is another beautiful city which has one entrance to the Smoky Mountain National Park nearby.",
+        para2: "The city of Gatlinburg is amazing. It is a perfect tourist spot for people to come and live the vacation they have dreamed off. If you want to just be there and relax, you can do that. If you are an outgoing person who wants to try different activities, Gatlinburg will not disappoint. There is so much to do in the city, from full fletched amusement parks to small unique experiences. No matter what kind of person you are, you will find something to do in Gatlinburg, and it will be fun and exciting. The national park is famous for its tall mountains and bears. The clouds near the mountain tops give the illusion of smoke, hence the name. Unfortunately, we did not have a proper bear siting (apart from one time, which lasted for like 5 seconds), but we did get to see the forest and the preserved area nearby. They have also preserved houses from some of the first inhabitors in the area, which you get to see and wonder how people lived centuries ago. While coming back we saw the Kentucky horse park in Lexington (Kentucky) and stayed a night in Columbus (Ohio). All in all, what a wonderful week it was. Looking forward to more such experiences!"
+    },
+    {
+        id: 1,
         place: "Lancaster, Pennsylvania",
         link: "lancaster",
         description: "In the city of people living in the old ways.",
@@ -12,7 +24,7 @@ export const travelogues = [
         para2: "I went there with my uncle's family. Interseting fact, this is the first trip on this travelogue website which involves only \"Bansals\". People might find travelling with small kids a little difficult, which it can be, but I personally enjoyed it. There is so much you can learn from these experiences. Being surrounded by kids all day long who just want to have fun and enjoy the present is a perk. Sometimes you run after them, sometimes you run from them, but the important part is that you always run with them and that is what they want. Would not miss any chance to go on a vacation with them again :)."
     },
     {
-        id: 1,
+        id: 2,
         place: "Niagara Falls & Niagara River",
         link: "niagara",
         description: "Getting to see one of the largest waterfalls in the world.",
@@ -24,7 +36,7 @@ export const travelogues = [
         para2: "There are multiple activities that you can do at the falls. One of them is called \"Maid of the Mist\". In this, you get to go very close to the falls in a ferry. They give you a raincoat to wear because, no surprises, you get wet. The falls look even more mesmerizing from down there. Also, this actvity is offered from Canada's side as well. While passing by the Canadian ferry, a lot of hand waving occurs because people from either side are excited to see each other. Definitely one of the activities that you must do when you visit. It is definitely a place where I would be visiting quite frequently just because how amazing it is."
     },
     {
-        id: 2,
+        id: 3,
         place: "Kheerganga, Kasol & Manikaran",
         link: "kheerganga",
         description: "Probably the final trip with my batchmates at engineering college.",
@@ -36,7 +48,7 @@ export const travelogues = [
         para2: "The next day we trekked down and took a different route, through Tosh village. The moment we reached the bottom, we had this sense of satisfaction that is hard to describe. Overall the experience was unforgettable, thanks to everyone around. From there, we headed straight to Manikaran again, had lunch and went to Kasol for the final night. Kasol was the only place where we stayed in a comfortable hotel on the entire trip. After resting for a while, we decided to head to the market and explore. While returning, we had dinner at a dhaba. The night at the hotel was spent dancing and enjoying together. We all new that this could very well be our final outing together as a group. The next morning we started the arduous(because it was soooo looooooong) journey of heading back to Ambala. As we sat in the taxi waiting to reach Ambala, we all relished our time together and thanked each other to come along. Looking forward to more such trekking experiences..."
     },
     {
-        id: 3,
+        id: 4,
         place: "Qatar",
         link: "qatar",
         description: "Read about the time when I went to Qatar and made lots of new friends.",
@@ -48,7 +60,7 @@ export const travelogues = [
         para2: "I am so thankful to the Qatar Youth Hostels for this opportunity. Also I feel very lucky to have met Aman, Badonbok, Sameep, Nishad, Sindura, Ankita, Amrutha, Radhika and Anu. The five days that all of us had spent together can never be forgotten. It was so cool to witness something for the first time together. Hopefully more of such programs take place and these expeditions never end."
     },
     {
-        id: 4,
+        id: 5,
         place: "Jodhpur & Jaisalmer",
         link: "jodhpur",
         description: "A very memorable visit to the historical sights of Rajasthan with my cousins.",
@@ -60,7 +72,7 @@ export const travelogues = [
         para2: "The camp where we stayed at in Jaisalmer also had a traditional program every night where they perform typical Rajasthani singing and dancing. It was definitely a great time to just sit and watch the live performance. As we were travelling in the desert one day, we also got a chance to do paragliding. To be up so high and the only thing you can see around you is desert, is a surreal experience. Again, the credits for this trip go to my maternal grandfather and my aunt. It is their dedication that we were able to experience all of this together."
     },
     {
-        id: 5,
+        id: 6,
         place: "Andaman & Nicobar Islands",
         link: "andaman",
         description: "Me & My family went to the South East corner of India to find no mobile reception.",
@@ -72,7 +84,7 @@ export const travelogues = [
         para2: "The first thing we instantly realised when we reached there was that... \"THERE WAS NO MOBILE RECEPTION!!\". Ok, no is a little exaggeration but it was really bad. The only signal that any mobile was able to catch was BSNL 2G. That too in limited places. We knew that this was going to be the real holiday, absolutely no connection with the outside world. We visited three Islands:-<ul><li>Port Blair</li><li>Havelock Island</li><li>Neil Island</li></ul>Port Blair was the only place where we got Wifi in the hotel that too was slower than 2G. My father who receives atleast 100 calls a day had no call to answer. We travelled from island to island in a cruise. The only reason we were able to enjoy all this is because of my Nanaji and Naniji. The whole credit for this trip goes to them."
     },
     {
-        id: 6,
+        id: 7,
         place: "Dharamshala & Mcleodganj",
         link: "dharamshala",
         description: "The holy land of His Highness Dalai Lama was explored with some insanely amazing people.",
