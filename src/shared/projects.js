@@ -1,6 +1,27 @@
 export const projectData = [
     {
         id: 0,
+        title: "Forest Fire Evacuation using Reinforcement Learning",
+        link: "https://github.com/ForestFireRescue",
+        tools: "Python, PyTorch, OpenAI Gym",
+        points : [
+            "Designed an environment using gym for forest fire simulation. The agent has to navigate through the stochastic environment where fire is spreading to rescue people.",
+            "Used a custom observation space which informs the agent about the intensity of person and fire in each of its four directions.",
+            "Using DQN, Double DQN and TD Advantage Actor Critic algorithm to solve the problem."
+        ]
+    },
+    {
+        id: 1,
+        title: "CartPole, Mountain Car, Lunar Lander - OpenAI Environments",
+        tools: "Python, PyTorch, OpenAI Gym",
+        points : [
+            "Used reinforcement learning algorithms such as Q-Learning and SARSA to solve grid world environments.",
+            "Implemented value approximation functions such as DQN and Double DQN to solve OpenAI gym environments such as CartPole and Mountain Car.",
+            "Worked on actor critic policy gradient methods to solve more complex environments such as Lunar Lander."
+        ]
+    },
+    {
+        id: 2,
         title: "File Access Manager as a Distributed System",
         tools: "React.js, Node.js, Docker, SQLite",
         points : [
@@ -10,7 +31,7 @@ export const projectData = [
         ]
     },
     {
-        id: 1,
+        id: 3,
         title: "Motif based analysis of Bitcoin Transaction Network",
         link: "https://github.com/UB-CSE-640-Blockchain-Analysis",
         tools: "Python, Networkx library",
@@ -21,7 +42,7 @@ export const projectData = [
         ]
     },
     {
-        id: 2,
+        id: 4,
         title: "Face Detection and Clustering System",
         tools: "Python, OpenCV",
         points : [
@@ -31,7 +52,7 @@ export const projectData = [
         ]
     },
     {
-        id: 3,
+        id: 5,
         title: "Panorama Stitcher",
         tools: "Python, OpenCV",
         points : [
@@ -41,7 +62,7 @@ export const projectData = [
         ]
     },
     {
-        id: 4,
+        id: 6,
         title: "Perception and Path Planning, Robotics",
         tools: "C++, ROS, stage, tf",
         points : [
@@ -51,7 +72,7 @@ export const projectData = [
         ]
     },
     {
-        id: 5,
+        id: 7,
         title: "Pintos Operating System",
         tools: "C, PintOS (Stanford University)",
         points : [
@@ -61,7 +82,7 @@ export const projectData = [
         ]
     },
     {
-        id: 6,
+        id: 8,
         title: "Printing Job Management System",
         tools: "React.js, Node.js, MongoDB",
         points : [
@@ -71,7 +92,7 @@ export const projectData = [
         ]
     },
     {
-        id: 7,
+        id: 9,
         title: "Data Structures and Algorithm Visualizer",
         tools: "React.js, Node.js, Vanilla JavaScript, Bootstrap",
         link: "https://dsavisualizer.github.io",
@@ -80,7 +101,7 @@ export const projectData = [
         ]
     },
     {
-        id: 8,
+        id: 10,
         title: "Personal Travelogue Website",
         tools: "React.js, Bootstrap, Github Actions(CI/CD)",
         link: "https://utsbansal.github.io",
