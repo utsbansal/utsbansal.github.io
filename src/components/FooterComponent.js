@@ -17,7 +17,7 @@ function Footer(props){
                     <div className="col-6">
                         <h5>Find me at</h5>
                         <div>
-                            <a rel="noopener noreferrer" className="btn btn-social-icon btn-linkedin social-icon" href="https://www.linkedin.com/in/utkarsh-bansal-5a406815a/" target="_blank"><i className="fa fa-linkedin fa-lg"></i></a>
+                            <a rel="noopener noreferrer" className="btn btn-social-icon btn-linkedin social-icon" href="https://www.linkedin.com/in/utsbansal/" target="_blank"><i className="fa fa-linkedin fa-lg"></i></a>
                             <a rel="noopener noreferrer" className="btn btn-social-icon btn-twitter social-icon" href="https://twitter.com/utsbansal" target="_blank"><i className="fa fa-twitter fa-lg"></i></a>
                             <a rel="noopener noreferrer" className="btn btn-social-icon btn-github social-icon" href="https://github.com/utsbansal" target="_blank"><i className="fa fa-github fa-lg"></i></a>
                         </div>
