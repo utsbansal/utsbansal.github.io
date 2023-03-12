@@ -8,9 +8,9 @@ function Footer(props){
                     <div className="col-6">
                         <h5>My Address</h5>
                         <address>
-                            179, Old Lyme Dr, Apt#8<br/>
-                            Williamsville-14221<br/>
-                            New York<br/>
+                            16 Sudbury Way<br/>
+                            Avon-06001<br/>
+                            Connecticut<br/>
                             Email: <a href="mailto:utkarshbansal210@gmail.com">utkarshbansal210@gmail.com</a><br/>
                         </address>
                     </div>
